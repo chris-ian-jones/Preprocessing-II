@@ -18,8 +18,11 @@
 }
 
 .fun-bus-logo(@c1, @c2, @c3, @c4, @c5, @c6) {
+    
+    // For chrome browser //
     -webkit-animation:colorchange 5s infinite alternate;
 
+    // Cycles though each color at 1 second intervals //
     @-webkit-keyframes colorchange {
     0%  {
         color: @c1;
