@@ -168,6 +168,11 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+body {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
 header {
   max-width: 800px;
   width: 100%;
@@ -244,4 +249,16 @@ header nav a {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.container-header {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: 2px dashed #C0C0C0;
+}
+.container-header h2 {
+  padding-top: 25px;
+}
+.container-header p {
+  padding-bottom: 25px;
 }
