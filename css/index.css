@@ -223,12 +223,6 @@ header nav a {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-@media (max-width: 500px) {
-  .home .content-section {
-    width: 100%;
-    flex-direction: column;
-  }
-}
 .home .content-section .text-content {
   width: 48%;
   padding-right: 1%;
@@ -236,6 +230,9 @@ header nav a {
 @media (max-width: 500px) {
   .home .content-section .text-content {
     width: 100%;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
 .home .content-section .img-content {
@@ -245,6 +242,9 @@ header nav a {
 @media (max-width: 500px) {
   .home .content-section .img-content {
     width: 100%;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
 .home .content-section .img-content img {
@@ -254,13 +254,35 @@ header nav a {
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
 }
+@media (max-width: 500px) {
+  .home .inverse-content {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+}
 .home .inverse-content .text-content {
   padding-left: 1%;
   padding-right: 0;
 }
+@media (max-width: 500px) {
+  .home .inverse-content .text-content {
+    width: 100%;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
 .home .inverse-content .img-content {
   padding-right: 1%;
   padding-left: 0;
+}
+@media (max-width: 500px) {
+  .home .inverse-content .img-content {
+    width: 100%;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }
 .home .content-destination {
   width: 75%;
@@ -269,6 +291,9 @@ header nav a {
 @media (max-width: 500px) {
   .home .content-destination {
     width: 100%;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
 .home .content-destination img {
@@ -301,6 +326,14 @@ header nav a {
   width: 100%;
   margin: 0 auto;
   border-bottom: 2px dashed #C0C0C0;
+}
+@media (max-width: 500px) {
+  .container-top {
+    width: 100%;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }
 .container-top h2 {
   padding-top: 25px;
