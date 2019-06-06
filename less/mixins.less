@@ -16,3 +16,28 @@
     padding-left: 5%;
     padding-right: 5%;
 }
+
+.fun-bus-logo(@c1, @c2, @c3, @c4, @c5, @c6) {
+    -webkit-animation:colorchange 5s infinite alternate;
+
+    @-webkit-keyframes colorchange {
+    0%  {
+        color: @c1;
+        }
+    20% {
+        color: @c2;
+        }
+    40% {
+        color: @c3;
+        }
+    60% {
+        color: @c4;
+        }
+    80% {   
+        color: @c5;
+        }
+    80% {   
+        color: @c6;
+        }
+    }
+}
