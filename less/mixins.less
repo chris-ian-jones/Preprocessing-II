@@ -1,1 +1,46 @@
-// Mixins in here
+.button(@bg, @col) {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: @bg;
+    color: @col;
+    border-radius: 15px;
+    font-size: 2rem;
+}
+
+.mobile-formatting() {
+    width: 100%;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.fun-bus-logo(@c1, @c2, @c3, @c4, @c5, @c6) {
+    
+    // For chrome browser //
+    -webkit-animation:colorchange 5s infinite alternate;
+
+    // Cycles though each color at 1 second intervals //
+    @-webkit-keyframes colorchange {
+    0%  {
+        color: @c1;
+        }
+    20% {
+        color: @c2;
+        }
+    40% {
+        color: @c3;
+        }
+    60% {
+        color: @c4;
+        }
+    80% {   
+        color: @c5;
+        }
+    100% {   
+        color: @c6;
+        }
+    }
+}
